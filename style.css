@@ -14,7 +14,7 @@ body{
 
 h1{
     line-height: 40px;
-    font-size: 50px;
+    font-size: 40px;
     color: rgb(185, 185, 185);
     text-shadow: 2px 2px 2px black;
 }
@@ -28,8 +28,6 @@ p{
     text-align: justify;
 }
 .top-banner{
-    /* display: flex;
-    align-items: center; */
     background-image: url("images/top-banner.png") ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -128,6 +126,11 @@ p{
     background-image:url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
+}
+
+.exp-area>h1{
+    margin-top:90px ;
+   margin-bottom: -70px; 
 }
 
 #web-dev-exp{
