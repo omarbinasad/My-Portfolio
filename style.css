@@ -2,6 +2,9 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+section{
+    border-bottom: 1px solid black;
+}
 
 
 h1{
@@ -14,48 +17,80 @@ h1{
 }
 
 p{
-    margin: 40px 0px ;
+    margin: 15px 0px ;
     color: rgb(0, 0, 0);
+    text-align: justify;
 }
-
-.my-photo> img{
-
-    width: 55%;
-    background-size: cover;
-    border: 0px solid rgb(255, 255, 255);
-    border-radius: 50%;
-    background-color: rgb(0, 240, 200);
-    
-    
-    
-}
-
-.my-photo{
-    width: 50%;
-  
-   text-align: center;
-   padding-right: 5%;
-   /* padding-left: 10px; */
-    
-}
-
-
-
 .top-banner{
     display: flex;
-    padding-top: 100px;
+    align-items: center;
     background-image: url("images/top-banner.png") ;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    
+}
+.banner-half-width1{ 
+    width: 50%;
+    padding-right: 2%;
+    padding-left: 6%;
+    
+ }
+
+
+.banner-half-width2> img{
+
+    width: 380px;
+    border: 0px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: rgb(0, 240, 200);
+    margin: auto;
+    display: block;
+    
+    
+}
+.dream-big{
+    display: flex;
+    align-items: center;
+    
+    background-image: url("images/dream-bg.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    
 }
 
-.half-width{
-    /* padding-right: 10px; */
-    padding-left: 5%;
+.dream-half-width1{
     width: 50%;
+    padding-left: 2%;
 }
+
+.dream-half-width1> img{
+    width: 380px;
+    border: 0px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: rgb(0, 240, 200);
+    margin: auto;
+    display: block;
+
+}
+.dream-half-width2{ 
+    width: 50%;
+    padding-right: 5%;
+    
+
+ }
+
+
+
+
+.dream-half-width2>h2{
+    margin: 0px;
+}
+
+
 
 .hire-me-btn{
     box-shadow: 2px 2px 3px black;
